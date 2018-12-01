@@ -10,10 +10,13 @@
     "gatsby-plugin-sass": "^1.0.12",
     "gatsby-plugin-typography": "^1.7.10",
     "particles.js": "^2.0.0",
+    "serve": "^10.1.1",
     "typography": "^0.16.6",
     "typography-theme-fairy-gates": "^0.15.11"
   },
-  "keywords": ["gatsby"],
+  "keywords": [
+    "gatsby"
+  ],
   "license": "MIT",
   "main": "n/a",
   "scripts": {
@@ -21,7 +24,8 @@
     "develop": "gatsby develop",
     "deploy": "gatsby build && surge public/ sanwick.us",
     "format": "prettier --trailing-comma es5 --no-semi --single-quote --write 'src/**/*.js'",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "serve public/"
   },
   "devDependencies": {
     "prettier": "^1.7.4"
