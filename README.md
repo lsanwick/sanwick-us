@@ -1,13 +1,16 @@
-# gatsby-starter-default
-The default Gatsby starter
+# Site code for sanwick.us
 
-For an overview of the project structure please refer to the [Gatsby documentation - Building with Components](https://www.gatsbyjs.org/docs/building-with-components/)
+This site is based on the [gatsby-starter-strata](https://github.com/ChangoMan/gatsby-starter-strata) theme, see
 
-Install this starter (assuming Gatsby is installed) by running from your CLI:
-```
-gatsby new gatsby-example-site
-```
+## Development
 
-## Deploy
+Clone this repo.
 
-[![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/gatsbyjs/gatsby-starter-default)
+Install the Gatsby CLI tools, if necessary, by running `npm install -g gatsby-cli`
+Install Yarn, if necessary, by running `npm install -g yarn`
+
+Run `yarn install` in the repo root directory.
+
+Run `gatsby develop` in the terminal to start.
+
+[![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/lsanwick/sanwick-us)

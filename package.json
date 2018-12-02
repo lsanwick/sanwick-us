@@ -4,30 +4,36 @@
   "version": "1.0.0",
   "author": "Kyle Mathews <mathews.kyle@gmail.com>",
   "dependencies": {
-    "gatsby": "^1.9.63",
-    "gatsby-link": "^1.6.21",
-    "gatsby-plugin-react-helmet": "^1.0.5",
-    "gatsby-plugin-sass": "^1.0.12",
-    "gatsby-plugin-typography": "^1.7.10",
-    "particles.js": "^2.0.0",
-    "serve": "^10.1.1",
-    "typography": "^0.16.6",
-    "typography-theme-fairy-gates": "^0.15.11"
+    "gatsby": "^2.0.0",
+    "gatsby-plugin-manifest": "^2.0.2",
+    "gatsby-plugin-offline": "^2.0.5",
+    "gatsby-plugin-react-helmet": "^3.0.0",
+    "gatsby-plugin-sass": "^2.0.1",
+    "node-sass": "^4.9.3",
+    "react": "^16.5.1",
+    "react-dom": "^16.5.1",
+    "react-helmet": "^5.2.0",
+    "react-images": "^0.5.19",
+    "serve": "^10.1.1"
   },
   "keywords": [
     "gatsby"
   ],
   "license": "MIT",
-  "main": "n/a",
   "scripts": {
     "build": "gatsby build",
     "develop": "gatsby develop",
-    "deploy": "gatsby build && surge public/ sanwick.us",
-    "format": "prettier --trailing-comma es5 --no-semi --single-quote --write 'src/**/*.js'",
+    "format": "prettier --write '**/*.js'",
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "serve public/"
   },
   "devDependencies": {
-    "prettier": "^1.7.4"
+    "eslint": "^5.9.0",
+    "eslint-plugin-react": "^7.11.1",
+    "prettier": "^1.14.2"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/lsanwick/sanwick-us"
   }
 }
