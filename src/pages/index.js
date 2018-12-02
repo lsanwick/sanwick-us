@@ -142,7 +142,7 @@ class HomeIndex extends React.Component {
             <p>If you'd like to contact me, just use the form below.</p>
             <div className="row">
               <div className="8u 12u$(small)">
-                <form method="post" action="#" netlify>
+                <form name="contact" netlify>
                   <div className="row uniform 50%">
                     <div className="6u 12u$(xsmall)">
                       <input
