@@ -140,9 +140,9 @@ class HomeIndex extends React.Component {
           <section id="two">
             <h2>Get In Touch</h2>
             <p>If you'd like to contact me, just use the form below.</p>
-            <div className="row">
-              <div className="8u 12u$(small)">
-                <form method="POST" name="contact" data-netlify="true">
+            <form method="POST" name="contact" data-netlify="true">
+              <div className="row">
+                <div className="8u 12u$(small)">
                   <div className="row uniform 50%">
                     <div className="6u 12u$(xsmall)">
                       <input
@@ -169,14 +169,16 @@ class HomeIndex extends React.Component {
                       />
                     </div>
                   </div>
-                </form>
-                <ul className="actions">
-                  <li>
-                    <input type="submit" value="Send Message" />
-                  </li>
-                </ul>
+                </div>
               </div>
-            </div>
+              <ul className="actions">
+                <li>
+                  <button className="button" type="submit">
+                    Send Message
+                  </button>
+                </li>
+              </ul>
+            </form>
           </section>
         </div>
       </Layout>
