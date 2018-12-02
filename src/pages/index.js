@@ -140,7 +140,12 @@ class HomeIndex extends React.Component {
           <section id="two">
             <h2>Get In Touch</h2>
             <p>If you'd like to contact me, just use the form below.</p>
-            <form method="POST" name="contact" data-netlify="true">
+            <form
+              method="POST"
+              action="/thanks"
+              name="contact"
+              data-netlify="true"
+            >
               <div className="row">
                 <div className="8u 12u$(small)">
                   <div className="row uniform 50%">
@@ -171,7 +176,7 @@ class HomeIndex extends React.Component {
                   </div>
                 </div>
               </div>
-              <ul className="actions">
+              <ul className="actions" style={{ marginTop: '2em' }}>
                 <li>
                   <button className="button" type="submit">
                     Send Message
