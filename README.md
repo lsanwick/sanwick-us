@@ -1,4 +1,4 @@
-# Site code for sanwick.us
+# Site code for sanwick.dev
 
 This site is based on the [gatsby-starter-strata](https://github.com/ChangoMan/gatsby-starter-strata) theme, see
 
